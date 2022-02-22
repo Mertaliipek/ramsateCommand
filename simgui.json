@@ -1,0 +1,24 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/DriveSubsystem": "Subsystem",
+      "/LiveWindow/Ungrouped/AnalogGyro[0]": "Gyro",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Ungrouped/Victor[4]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Victor[5]": "Motor Controller"
+    }
+  },
+  "NetworkTables": {
+    "LiveWindow": {
+      "Ungrouped": {
+        "Victor[5]": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
